@@ -1,0 +1,42 @@
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+  debug: (image: show)
+);
+  // $shorthand: 12 1/4 fluid float inside;
+
+h1 {
+  margin: 0 auto;
+}
+
+@include susy-media(max-width 530px) {
+.gallery {
+  @include container(80%);
+  div{
+    @include gallery (12 of 12)
+  }
+}
+}
+
+@include susy-media(min-width 530px) {
+.gallery {
+  @include container(80%);
+  div{
+    @include gallery (6 of 12)
+  }
+}
+}
+
+@include susy-media(min-width 1040px) {
+.gallery {
+  @include container(80%);
+  div{
+    @include gallery (3 of 12)
+  }
+}
+}

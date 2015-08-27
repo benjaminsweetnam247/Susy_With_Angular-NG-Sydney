@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Gallery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app="gallery">
+  <h1>Gallery</h1>
+  <div class="gallery" ng-controller="GalleryCtrl ">
+    <div ng-repeat="text in texts">
+      <img src="http://placehold.it/200?text={{ text }}" alt="">
+    </div>
+  </div>
+  <script>
+      var gallery = angular.module('gallery', []);
+      gallery.controller('GalleryCtrl', function ($scope){
+        $scope.texts = ['Alpha', 'Beta', 'Gamma', 'Delta', 'Epsilon', 'Zeta', 'Eta', 'Theta', 'Iota', 'Kappa', 'Lambda', 'Mu'];
+      });
+  </script>
+</body>
+</html>
