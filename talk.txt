@@ -1,4 +1,3 @@
-##My Talk On Using Suzy With Angular.js with examples
 Hi I want to talk to you today about layouts.
 A bit about me I've recently finished up an internship type arrangement and I'm looking for
 a place to work.
@@ -68,6 +67,6 @@ Obilitory meem.
 
 Thankyou.
 
-https://www.emaze.com/@ALQZOFFO/susy-with-angular
+
 
 
