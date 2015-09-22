@@ -1,0 +1,23 @@
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  );
+
+header {
+  text-align: center;
+}
+section {
+  @include container(80%);
+  article {
+    @include span(12);
+    &:nth-child(2n) {
+      text-align:right;
+    }
+    div {
+      margin: 0 auto;
+      width: 150px;
+    }
+  }
+}

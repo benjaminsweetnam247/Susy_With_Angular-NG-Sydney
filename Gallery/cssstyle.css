@@ -1,0 +1,14 @@
+div.image {
+  margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.image img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}

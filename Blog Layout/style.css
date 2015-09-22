@@ -1,0 +1,23 @@
+header {
+  text-align: center; }
+
+section {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+  section:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  section article {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0; }
+    section article:nth-child(2n) {
+      text-align: right; }
+    section article div {
+      margin: 0 auto;
+      width: 150px; }
+
+/*# sourceMappingURL=style.css.map */
