@@ -68,6 +68,4 @@ Obilitory meem.
 
 Thankyou.
 
-https://www.emaze.com/@ALQZOFFO/susy-with-angular
-
-
+https://goo.gl/rA0HWs
